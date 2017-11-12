@@ -1,6 +1,20 @@
 # React Redux Boilerplate
 Simple ReactJS Boilerplate to kick start your new project with SASS support and webpack watch/build tasks
 
+## File Structure
+
+    .
+    ├── server                 # production sever setup
+    ├── src                    # source files
+    ├── static                 # static files to serve
+    ├── babelrc                # babel configuration
+    ├── gitignore              # files and folders to ignore in git
+    ├── webpack.config.js      # webpack configuration
+    └── ReadMe.md              # ReadMe file
+
+## Contribution
+ This boilerplate repo will be updated regularly by [me](http://github.com/manikandan-ramar) and also you can also contribute.
+
 # Features
 * SASS support
 * webpack watch, build and local server tasks
@@ -42,17 +56,3 @@ npm start
 ```
 
 - production build will be served in port 8080 (`http://localhost:8080/`).
-
-## File Structure
-    
-    .
-    ├── server                 # production sever setup
-    ├── src                    # source files
-    ├── static                 # static files to serve
-    ├── babelrc                # babel configuration
-    ├── gitignore              # files and folders to ignore in git
-    ├── webpack.config.js      # webpack configuration
-    └── ReadMe.md              # ReadMe file
-
-## Contribution
- This boilerplate repo will be updated regularly by [me](http://github.com/manikandan-ramar) and also you can also contribute.

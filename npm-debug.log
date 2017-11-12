@@ -1,0 +1,137 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.4
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/mnt/f/react-redux-boilerplate',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /home/manikandan/.npm/react-redux-boilerplate/1.0.0/package.tgz not in flight; packing
+9 verbose correctMkdir /home/manikandan/.npm correctMkdir not in flight; initializing
+10 info lifecycle react-redux-boilerplate@1.0.0~prepublish: react-redux-boilerplate@1.0.0
+11 silly lifecycle react-redux-boilerplate@1.0.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/home/manikandan/.npm/react-redux-boilerplate/1.0.0/package.tgz',
+12 verbose tar pack   '/mnt/f/react-redux-boilerplate' ]
+13 verbose tarball /home/manikandan/.npm/react-redux-boilerplate/1.0.0/package.tgz
+14 verbose folder /mnt/f/react-redux-boilerplate
+15 verbose addLocalTarball adding from inside cache /home/manikandan/.npm/react-redux-boilerplate/1.0.0/package.tgz
+16 verbose correctMkdir /home/manikandan/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd react-redux-boilerplate@1.0.0
+18 verbose afterAdd /home/manikandan/.npm/react-redux-boilerplate/1.0.0/package/package.json not in flight; writing
+19 verbose correctMkdir /home/manikandan/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /home/manikandan/.npm/react-redux-boilerplate/1.0.0/package/package.json written
+21 silly publish { name: 'react-redux-boilerplate',
+21 silly publish   version: '1.0.0',
+21 silly publish   description: 'React Redux Boilerplate',
+21 silly publish   author:
+21 silly publish    { name: 'Manikandan Ramar',
+21 silly publish      email: 'manikandanramar@outlook.com',
+21 silly publish      url: 'https://github.com/manikandan-ramar' },
+21 silly publish   license: 'MIT',
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/manikandan-ramar/react-redux-boilerplate.git' },
+21 silly publish   keywords: [ 'react', 'redux', 'sass', 'webpack', 'babel', 'yarn' ],
+21 silly publish   scripts:
+21 silly publish    { dev: 'webpack-dev-server',
+21 silly publish      build: 'webpack',
+21 silly publish      start: 'webpack && node ./server' },
+21 silly publish   dependencies:
+21 silly publish    { classnames: '^2.2.5',
+21 silly publish      react: '^15.6.1',
+21 silly publish      'react-dom': '^15.6.1',
+21 silly publish      'react-helmet': '^5.2.0',
+21 silly publish      'react-redux': '^5.0.6',
+21 silly publish      'react-router-dom': '^4.2.2',
+21 silly publish      redux: '^3.7.2',
+21 silly publish      superagent: '^3.6.0' },
+21 silly publish   devDependencies:
+21 silly publish    { 'babel-core': '^6.26.0',
+21 silly publish      'babel-loader': '^7.1.2',
+21 silly publish      'babel-plugin-add-module-exports': '^0.2.1',
+21 silly publish      'babel-plugin-transform-decorators-legacy': '^1.3.4',
+21 silly publish      'babel-plugin-transform-react-display-name': '^6.25.0',
+21 silly publish      'babel-preset-env': '^1.6.0',
+21 silly publish      'babel-preset-react': '^6.24.1',
+21 silly publish      'babel-preset-stage-2': '^6.24.1',
+21 silly publish      'css-loader': '^0.28.7',
+21 silly publish      'html-webpack-plugin': '^2.30.1',
+21 silly publish      'node-sass': '^4.5.3',
+21 silly publish      'sass-loader': '^6.0.6',
+21 silly publish      'style-loader': '^0.18.2',
+21 silly publish      webpack: '^3.5.5',
+21 silly publish      'webpack-dev-server': '^2.7.1' },
+21 silly publish   readme: '## React Redux Boilerplate\r\n  A simple react boilerplate, with redux for state managment.\r\n\r\n## Steps to start\r\n- Do `npm install`\r\n- Do `npm run dev` for development mode and hot reloading (`http://localhost:3000/`)\r\n- Do `npm start` for production mode (`http://localhost:8080/`)\r\n\r\n## File Structure\r\n\r\n    \r\n\r\n## Contribution\r\n This boilerplate repo will be updated regularly by [me](http://github.com/manikandan-ramar) and also you can also contribute.',
+21 silly publish   readmeFilename: 'ReadMe.md',
+21 silly publish   gitHead: '07d3f1c698456eaaa43e126a360f42748715442e',
+21 silly publish   bugs: { url: 'https://github.com/manikandan-ramar/react-redux-boilerplate/issues' },
+21 silly publish   homepage: 'https://github.com/manikandan-ramar/react-redux-boilerplate#readme',
+21 silly publish   _id: 'react-redux-boilerplate@1.0.0',
+21 silly publish   _shasum: '5a196963f28a30d83767610105eaad82e0204521',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name react-redux-boilerplate
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'react-redux-boilerplate',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'react-redux-boilerplate',
+26 silly mapToRegistry   name: 'react-redux-boilerplate',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/react-redux-boilerplate
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /home/manikandan/.npm/react-redux-boilerplate/1.0.0/package.tgz
+30 verbose request uri https://registry.npmjs.org/react-redux-boilerplate
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 12:36:02 PM
+33 verbose request using bearer token for auth
+34 verbose request id f23f01f3f28557cf
+35 http request PUT https://registry.npmjs.org/react-redux-boilerplate
+36 http 403 https://registry.npmjs.org/react-redux-boilerplate
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '117',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Sun, 12 Nov 2017 07:06:02 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-sin18035-SIN',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1510470362.720181,VS0,VE426',
+37 verbose headers   vary: 'Accept-Encoding, Accept' }
+38 verbose request invalidating /home/manikandan/.npm/registry.npmjs.org/react-redux-boilerplate on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: You do not have permission to publish "react-redux-boilerplate". Are you logged in as the correct user? : react-redux-boilerplate
+40 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+40 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+40 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+40 verbose stack     at emitOne (events.js:96:13)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12)
+41 verbose statusCode 403
+42 verbose pkgid react-redux-boilerplate
+43 verbose cwd /mnt/f/react-redux-boilerplate
+44 error Linux 4.4.0-43-Microsoft
+45 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+46 error node v6.11.4
+47 error npm  v3.10.10
+48 error code E403
+49 error You do not have permission to publish "react-redux-boilerplate". Are you logged in as the correct user? : react-redux-boilerplate
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]

@@ -33,7 +33,7 @@ module.exports = {
       disableDotRule: true,
     },
     compress: true,
-    port: 3001,    
+    port: 3000,    
   },
   output: {
     filename: "app.min.js",

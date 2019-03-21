@@ -6,7 +6,7 @@ const config = require('./src/config');
 module.exports = {
   entry: __dirname + "/src/app",
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js$/,
         use: {
@@ -16,7 +16,7 @@ module.exports = {
       },
       {
         test: /\.scss$/,
-        loaders: ["style-loader", "css-loader?module", "sass-loader"],
+        loaders: ["style-loader", "css-loader?modules", "sass-loader"],
       },
     ]
   },
